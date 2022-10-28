@@ -16,24 +16,24 @@ Should be decently fast with ~40% chance of packet corruption and ~40% packet lo
 ```bash
 python Sender.py <SendingPort>
 ```
-Read from `stdin` and send through port <SendingPort>.
+Read from `stdin` and send through port `<SendingPort>`.
 
 ```bash
 python Sender.py <SendingPort> < input.txt
 ```
-Read from file `input.txt` and send through port <SendingPort>.
+Read from file `input.txt` and send through port `<SendingPort>`.
 
 ## Reciever
 
 ```bash
 python Reciever.py <ListeningPort>
 ```
-Listen on port <ListeningPort> and print to <stdout> (non-blocking).
+Listen on port `<ListeningPort>` and print to `<stdout>` (non-blocking).
 
 ```bash
 python Reciever.py <ListeningPort> > output.txt
 ```
-Listen on port <ListeningPort> and print to file `output.txt`.
+Listen on port `<ListeningPort>` and print to file `output.txt`.
 
 # Config
 
