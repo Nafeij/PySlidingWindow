@@ -1,6 +1,6 @@
 # PySlidingWindow
 
-GBN file transfer demo with two key features:
+Custom GBN file transfer implementation with two key features:
  1. Sel. Rep. buffering  :   reciever buffers out-of-order packets
  2. RFC 2001 fast retrans:   immediately retrans on Nth duplicate ack
 
